@@ -1,0 +1,4 @@
+<body>
+  <button (click)="rickroll()" [ngClass]="{'image1' : !rick, 'image2' : rick}" type="button"><img src = "assets/CLICKMEE.jpg" class="image1" /></button>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen [ngClass]="{'rickout' : !rick, 'rickin' : rick}"></iframe>
+</body>

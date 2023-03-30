@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0 ;
+    position: absolute;
+    background-color: #111111;
+}   
+.button{
+    margin: 0%;
+    padding: 0%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0 ;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    opacity: 100%;
+}
+.buttonf{
+    animation: fadeIn 4s;
+}
+.image1{
+    height: 315px;
+    width: 500px;
+    margin: 0%;
+    visibility: visible;
+}
+.image2{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+.rickout{
+    height: 315px;
+    width: 500px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0 ;
+    position: absolute;
+    visibility: hidden;
+}
+.rickin{
+    height: 315px;
+    width: 500px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0 ;
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s 2s, opacity 4s linear;
+}
